@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.navbar-brand{
+  padding: .7rem;
+  display: flex;
+  justify-content:space-between;
+}
+.avatar{
+  color: #00beb3;
+}
+.menu-text{
+  padding: .7rem;
+  background: #000;
+  color: #00beb3;
+}
+
+.first-Content{
+ padding-top: 3rem;
+}
+
+.box{
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px double black;
+  background: #c2e0de;
+}
+.space{
+  display: flex;
+  justify-content: start;
+}
+.block-1{
+  display: flex;
+}
+.form-select{
+  padding-left: .5rem;
+}
+.block-2{
+  padding-left: 7rem;
+  display: flex;
+}
+.inputdata{
+  padding-left: .5rem;
+}
+.space2{
+  display: flex;
+  padding-top: 7rem;
+  justify-content: center;
+}
+.btn{
+  height: 1.5rem;
+  background-color: #00beb3;
+}
+.space3{
+  padding: 2rem;
+  display: flex;
+  justify-content: end;
+}
+.btn-2{
+  height: 2rem;
+  background-color: #00beb3;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .secound-Content{
+  margin-bottom: 5rem;
+} */
+
+.box2{
+  margin: 2rem;
+  /* padding: 1rem; */
+  border: 2px double black;
+}
+.ant-table-thead>tr>th {
+  color: rgb(0 0 0 / 85%);
+  background: #00beb3;
+  border-bottom: 1px solid rgb(0 0 0 / 85%);
+}
+.ant-table-tbody>tr>td {
+  border-bottom: 1px solid rgb(0 0 0 / 85%);
+  background-color: #c2e0de;
+}
+.ant-table-column-sorter {
+  margin-left: 4px;
+  color: #000000;
+  font-size: 0;
+  transition: color .3s;
+}
+.pagination{
+  display: flex;
+  justify-content: end;
+  margin: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
